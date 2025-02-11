@@ -1,0 +1,40 @@
+.js-play-button,
+.js-pause-button,
+.js-volume-button,
+.js-mute-button,
+.js-fullscreen-button{
+    border: none;
+    color: white;
+    background-color:transparent;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+.js-play-button:hover,
+.js-pause-button:hover,
+.js-volume-button:hover,
+.js-mute-button:hover,
+.js-fullscreen-button:hover{
+    cursor: pointer;
+}
+.js-video-container{
+  width: 100%; 
+  height: 100%;
+
+}
+.player{
+  width: 800px;
+  height: 600px;
+  box-shadow: 0 0 20px black; 
+  display: flex;
+  flex-direction: column;
+} 
+
+.icons-container{
+  background-color:black;
+  display: flex;
+}
+.empty-container{
+  flex-grow: 1;
+}
