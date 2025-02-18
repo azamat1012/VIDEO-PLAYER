@@ -1,8 +1,8 @@
-.js-play-button,
-.js-pause-button,
-.js-volume-button,
-.js-mute-button,
-.js-fullscreen-button{
+.play-button,
+.pause-button,
+.volume-button,
+.mute-button,
+.fullscreen-button{
     border: none;
     color: white;
     background-color:transparent;
@@ -11,14 +11,14 @@
 }
 
 
-.js-play-button:hover,
-.js-pause-button:hover,
-.js-volume-button:hover,
-.js-mute-button:hover,
-.js-fullscreen-button:hover{
+.play-button:hover,
+.pause-button:hover,
+.volume-button:hover,
+.mute-button:hover,
+.fullscreen-button:hover{
     cursor: pointer;
 }
-.js-video-container{
+.video-container{
   width: 100%; 
   height: 100%;
 
